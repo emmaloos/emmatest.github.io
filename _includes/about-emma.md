@@ -14,4 +14,4 @@ Zaterdag 19 april 2025, op Emma haar verjaardag, organiseren we daarom een spons
     <a class="btn btn-primary" href="https://www.rabobank.nl/">Help mee</a>
 </div>
 
-![Emma](img/emma.png)
+![Emma](/img/emma.png)
