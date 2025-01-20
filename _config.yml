@@ -8,6 +8,6 @@ url: "https://www.emmaloos.nl" # the base hostname & protocol for your site, e.g
 
 # Build settings
 # theme: jekyll-theme-clean-blog # minima
-plugins:
-  - jekyll-feed
+# plugins:
+#   - jekyll-feed
 
