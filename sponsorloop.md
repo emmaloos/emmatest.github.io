@@ -3,6 +3,7 @@ layout: page
 background: '/img/bg-runner.jpg'
 title: "Sponsorloop"
 description: "Loop! Doneer! Help mee!"
+wide: true
 ---
 
 <!-- Doneer button -->
