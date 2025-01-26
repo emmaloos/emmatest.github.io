@@ -2,7 +2,15 @@
     <div class="container px-5">
         <div class="row gx-5 align-items-center">
             <div class="col-lg-6 order-lg-2">
-                <div class="p-5"><img class="img-fluid rounded-circle" src="{{ include.image }}" alt="..." /></div>
+                <div class="p-5">
+                    {% if include.image-link %}
+                    <a href="{{ include.image-link }}">
+                        <img class="img-fluid rounded-circle" src="{{ include.image }}" />
+                    </a>
+                    {% else %}
+                        <img class="img-fluid rounded-circle" src="{{ include.image }}" />
+                    {% endif %}
+                </div>
             </div>
             <div class="col-lg-6 order-lg-1">
                 <div class="p-5">

@@ -5,6 +5,9 @@ author: Mirelle en Edwin Loos
 description: Maak kennis met Emma
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.emmaloos.nl" # the base hostname & protocol for your site, e.g. http://example.com
+doneerurl: "https://rabobank.nl"
+inschrijfurl: "https://docs.google.com/forms/d/e/1FAIpQLSeGxkPpnSOvD9rU0x2rxgNJKMVzKEF8adS7lfRtxbjvlm_9GA/viewform?usp=dialog"
+nieuwsbriefurl: "https://docs.google.com/forms/d/e/1FAIpQLSenK6r9ADBG_ysQ2fu75xHyYXu5LPucJTVSSPrct4lNasmZeA/viewform?usp=dialog"
 
 # Build settings
 # theme: jekyll-theme-clean-blog # minima
