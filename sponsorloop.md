@@ -9,18 +9,6 @@ wide: true
 {% include doneer-inschrijf-buttons.html %}
 {: .col-lg10 }
 
-{% assign total_money=50000 %}
-{% assign raised_money=3000 %}
-{% assign progress_pct = 100.0 | times: raised_money | divided_by: total_money %}
-
-<div>
-    <div class="progress">
-        <div class="progress-bar active" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width: {{ progress_pct }}%;" aria-valuenow="{{ progress_pct }}">
-        </div>
-    </div>
-    <p>€ 3,000 van € 50,000 ingezameld.</p>
-</div>
-
 {% include bubble_left.html image="/img/calendar.png" header="Datum"
 content="Zet zaterdag 19 April in je agenda, want dan wordt de sponsorloop gehouden." %}
 
