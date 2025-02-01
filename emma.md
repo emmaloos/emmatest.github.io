@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Over Emma
-permalink: /about/
+permalink: /overemma/
 background: '/img/IMG_1553.jpg'
 background-position: center 20%
 ---
