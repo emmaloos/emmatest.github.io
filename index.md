@@ -26,5 +26,10 @@ Zaterdag 19 april 2025, op Emma haar verjaardag, organiseren we daarom een spons
 </div>
 
 
+[Lees meer over TOAK1 syndroom]({{ "/toak1" | relative_url }})
+
+[Lees meer over Emma's leven]({{ "/levensverhaal" | relative_url }})
+
+
 ![Emma](/img/emma.png){: .img-fluid}
 
