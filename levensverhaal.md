@@ -2,8 +2,8 @@
 layout: page
 background: '/img/emma/IMG20240617084658.jpg'
 background-position: center 30%
-title: "Levensverhaal"
-description: "Emma's weg hiernaartoe"
+title: "Emma's Verhaal"
+description: "Haar weg tot nu toe"
 ---
 
 ##### Geboorte
