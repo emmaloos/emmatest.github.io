@@ -5,10 +5,12 @@
                 <div class="p-5">
                     {% if include.image-link %}
                     <a href="{{ include.image-link }}">
-                        <img class="img-fluid rounded-circle" src="{{ include.image }}" />
+                    {% endif %}
+
+                    <img class="img-fluid {% unless include.no-rounded %}rounded-circle{% endunless %}" src="{{ include.image }}" />
+
+                    {% if include.image-link %}
                     </a>
-                    {% else %}
-                        <img class="img-fluid rounded-circle" src="{{ include.image }}" />
                     {% endif %}
                 </div>
             </div>
