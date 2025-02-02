@@ -9,7 +9,7 @@ description: "Haar weg tot nu toe"
 ##### Geboorte
 {: .neg-bottom-margin}
 
-19 april 2021 werd onze prachtige eerste kindje, Emma, geboren. We zaten sinds 37 weken zwangerschap een beetje in spanning, omdat tijdens een pret-echo gezien was dat Emma’s schedel te klein was. Op dat moment kon de gynaecoloog er nog geen verdere uitspraken over doen, omdat Emma al ingedaald was. Het kon dus ook nog een foutieve meting zijn. Maar toen Emma eenmaal, na een prachtige en snelle thuisbevalling, haar hoofdje aan de buitenwereld liet zien, bleek dat de meting niet foutief was. Emma’s schedel was erg klein.
+19 april 2021 werd ons prachtige eerste kindje, Emma, geboren. We zaten sinds 37 weken zwangerschap een beetje in spanning, omdat tijdens een pret-echo gezien was dat Emma’s schedel te klein was. Op dat moment kon de gynaecoloog er nog geen verdere uitspraken over doen, omdat Emma al ingedaald was. Het kon dus ook nog een foutieve meting zijn. Maar toen Emma eenmaal, na een prachtige en snelle thuisbevalling, haar hoofdje aan de buitenwereld liet zien, bleek dat de meting niet foutief was. Emma’s schedel was erg klein.
 
 Vanaf haar geboorte ging eigenlijk alles moeizaam bij Emma. Ze had geelzucht, dus moest met 2 dagen oud al worden opgenomen in het ziekenhuis. Drinken aan de borst ging niet. Ook uit een flesje ging het erg moeizaam. De melk lekte langs haar mondhoeken en ze stopte steeds na een paar slokken met drinken. Ook leek zij geen honger/dorstgevoel te hebben. Na een hele nacht niets drinken, weigerde ze ook vaak ‘s ochtends de fles. Wat zij binnen kreeg braakte ze regelmatig weer uit.
 
