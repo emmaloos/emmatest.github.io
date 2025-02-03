@@ -27,31 +27,47 @@ wide: true
     <h6 style="margin-top: 10px;">€ {{ raised_money_text }} van € {{total_money_text}} ingezameld</h6>
 </div>
 
-{% include bubble_left.html image="/img/calendar.png" header="Zaterdag 19 April"
-content="Zet zaterdag 19 April in je agenda, want dan wordt de sponsorloop gehouden." %}
+{% capture datum_content %}
+Zet zaterdag 19 April in je agenda, want dan wordt de sponsorloop gehouden.
+{: .m-0}
 
+{% endcapture %}
+{% include bubble_left.html image="/img/calendar.png" header="Zaterdag 19 April"
+content=datum_content %}
+
+{% capture doel_content %}
+Het doel van de sponsorloop is om geld in te zamelen voor een rolstoelbus.
+{: .m-0}
+
+{% endcapture %}
 {% include bubble_right.html image="/img/rolstoelbus.jpg" header="Rolstoelbus"
-content="Het doel van de sponsorloop is om geld in te zamelen voor een rolstoelbus." %}
+content=doel_content %}
 
 
 {% capture doneer_content %}
 Doneren kan via onderstaande link. Heel erg bedankt voor uw steun!
+{: .m-0}
 
 <a class="btn-xl btn-danger col-5" href="{{ site.doneerurl }}">&#10084;&#65038; Doneer</a>
 {% endcapture %}
 {% include bubble_left.html image="/img/betaalverzoek_qr.jpg" image-link=site.doneerurl no-rounded=true header="Doneer"
 content=doneer_content %}
 
+{% capture locatie_content %}
+De sponsorloop is op het terrein van de Kolping Boys, [Beverdam 3 in Alkmaar](https://maps.app.goo.gl/orsoURzLDYEHCVJS6).
+{: .m-0}
+
+{% endcapture %}
 {% include bubble_right.html header="Locatie"
 image="/img/kolpingboys_applemaps.png" image-link="https://maps.app.goo.gl/orsoURzLDYEHCVJS6"
-content="De sponsorloop is op het terrein van de Kolping Boys, [Beverdam 3 in Alkmaar](https://maps.app.goo.gl/orsoURzLDYEHCVJS6)" %}
+content=locatie_content %}
 
 
 {% capture loop_mee_content %}
 We zoeken kinderen die mee willen lopen! Opgeven kan via [dit formulier]({{ site.inschrijfurl }}).
+{: .m-0}
 
 Als je op een andere manier wilt helpen, [kan je contact opnemen]({{ site.contacturl }}).
-{: .neg-top-margin}
 
 {% endcapture %}
 {% include bubble_left.html header="Help mee!" image="/img/emma/IMG20240625164741.jpg"
