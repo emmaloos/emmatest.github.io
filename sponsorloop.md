@@ -48,7 +48,11 @@ content="De sponsorloop is op het terrein van de Kolping Boys, [Beverdam 3 in Al
 
 
 {% capture loop_mee_content %}
-Leuk dat je mee wilt lopen! Opgeven kan via [dit formulier]({{ site.inschrijfurl }})
+We zoeken kinderen die mee willen lopen! Opgeven kan via [dit formulier]({{ site.inschrijfurl }}).
+
+Als je op een andere manier wilt helpen, [kan je contact opnemen]({{ site.contacturl }}).
+{: .neg-top-margin}
+
 {% endcapture %}
-{% include bubble_left.html header="Loop mee" image="/img/emma/IMG20240625164741.jpg"
+{% include bubble_left.html header="Help mee!" image="/img/emma/IMG20240625164741.jpg"
 content=loop_mee_content %}
