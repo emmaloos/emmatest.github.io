@@ -12,7 +12,7 @@ wide: true
 
 <!-- Type the raised and total amount of money here -->
 {% assign total_money_text = "50,000" %}
-{% assign raised_money_text = "1,025" %}
+{% assign raised_money_text = "3,015" %}
 <!-- This calculates the percentage, which is used for the progress bar -->
 {% assign raised_money = raised_money_text | replace: ",", "" | to_float %}
 {% assign total_money = total_money_text | replace: ",", "" | to_float %}
