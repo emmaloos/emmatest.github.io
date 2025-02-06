@@ -1,5 +1,5 @@
 ---
-raised_money: "3,413"
+raised_money: "4,888"
 total_money: "50,000"
 
 
@@ -73,3 +73,11 @@ Als je op een andere manier wilt helpen, [kan je contact opnemen]({{ site.contac
 {% endcapture %}
 {% include bubble_left.html header="Help mee!" image="/img/emma/IMG20240625164741.jpg"
 content=loop_mee_content %}
+
+{% capture flyer_content %}
+Je kan de flyer [downloaden](/assets/flyer.pdf) om verder te delen.
+{: .m-0}
+
+{% endcapture %}
+{% include bubble_right.html header="Flyer" image="/img/flyer.jpg" image-link="/assets/flyer.pdf" no-rounded=true
+content=flyer_content %}
