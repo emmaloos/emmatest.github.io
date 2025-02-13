@@ -1,5 +1,5 @@
 ---
-raised_money: "9,250"
+raised_money: "9,925"
 total_money: "50,000"
 
 
