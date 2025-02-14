@@ -115,6 +115,7 @@ fieldset:disabled a.btn {
 
 .btn-xl {
   @include button-size($btn-padding-y-lg, $btn-padding-x-lg, $btn-font-size-xl, $btn-line-height-lg, $btn-border-radius-lg);
+  align-content: center;
 }
 
 .btn-sm {

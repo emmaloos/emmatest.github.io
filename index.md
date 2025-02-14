@@ -5,7 +5,7 @@ background: '/img/PHOTO-2024-04-14-15-33-44.jpg'
 background-position: center 20%
 ---
 
-{% include doneer-inschrijf-buttons.html %}
+{% include doneer-inschrijf-buttons.html meer_info=true %}
 
 ## Dit is onze fantastische dochter Emma.
 #### Knuffelkont. Kusjesmonster. Muziekliefhebber. Veerkrachtige strijder.
@@ -18,13 +18,7 @@ Kleine lijfjes worden (gelukkig) groot, maar dat betekent een steeds grotere bel
 
 Zaterdag 19 april 2025, op Emma haar verjaardag, organiseren we daarom een sponsorloop voor kinderen. Wil je meelopen, doneren of je anderzijds inzetten voor Emma? Klik dan op één van onderstaande knoppen.
 
-<div class="row text-center justify-content-between" style="margin-bottom: 30px">
-    <!-- Heart symbol (&#10084;) with text modifier (&#65038;) -->
-    <a class="btn-xl btn-danger col-3" href="{{ site.doneerurl }}">&#10084;&#65038; Doneer</a>
-    <a class="btn-xl btn-primary col-3" href="{{ site.inschrijfurl }}">+ Loop Mee</a>
-    <a class="btn-xl btn-primary col-3" href="{{ site.contacturl }}">✉️ Contact</a>
-</div>
-
+{% include doneer-inschrijf-buttons.html meer_info=true %}
 
 [Lees meer over TOAK1 syndroom]({{ "/toak1" | relative_url }})
 

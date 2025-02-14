@@ -74,6 +74,9 @@ We zoeken kinderen die mee willen lopen! Opgeven kan via [dit formulier]({{ site
 
 Als je op een andere manier wilt helpen, [kan je contact opnemen]({{ site.contacturl }}).
 
+<a class="btn-xl btn-primary col-3" href="{{ site.inschrijfurl }}">+ Loop Mee</a>
+<a class="btn-xl btn-primary col-3" href="{{ site.contacturl }}">&#9993; Contact</a>
+
 {% endcapture %}
 {% include bubble_left.html header="Help mee!" image="/img/emma/IMG20240625164741.jpg"
 content=loop_mee_content %}
