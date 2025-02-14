@@ -1,4 +1,5 @@
 ---
+loper_count: 17
 raised_money: "15,167.50"
 total_money: "50,000"
 
@@ -25,7 +26,10 @@ wide: true
         <div class="progress-bar active" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width: {{ progress_pct }}%;" aria-valuenow="{{ progress_pct }}">
         </div>
     </div>
-    <h6 style="margin-top: 10px;">€ {{ page.raised_money }} van € {{ page.total_money }} ingezameld</h6>
+    <div class="row mx-auto justify-content-between" style="margin-top: 10px;">
+        <h6>€ {{ page.raised_money }} van € {{ page.total_money }} ingezameld</h6>
+        <h6>Er lopen al {{ page.loper_count }} kinderen mee!</h6>
+    </div>
 </div>
 
 {% capture datum_content %}
