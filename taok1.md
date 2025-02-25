@@ -1,7 +1,7 @@
 ---
 layout: page
 background: '/img/emma/IMG20240524070713.jpg'
-title: "TOAK1 Syndroom"
+title: "TAOK1 Syndroom"
 description: ""
 background-position: center 20%
 ---
