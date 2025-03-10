@@ -1,5 +1,5 @@
 ---
-loper_count: 30
+loper_count: 32
 raised_money: "20,565"
 total_money: "50,000"
 

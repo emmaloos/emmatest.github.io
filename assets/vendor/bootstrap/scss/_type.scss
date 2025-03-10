@@ -91,6 +91,8 @@ mark,
 }
 .list-inline-item {
   display: inline-block;
+  margin-bottom: $list-inline-padding;
+  max-width: 8rem;
 
   &:not(:last-child) {
     margin-right: $list-inline-padding;

@@ -5,68 +5,72 @@
 <footer>
   <div class="container">
     <div class="row">
-      <div class="col-lg-8 col-md-10 mx-auto">
+      <div class="col-lg-12 col-md-10 mx-auto">
+        <p class="text-center">Met dank aan de partners die de sponsorloop mogelijk maken:</p>
+        <div style="display: none;" class="col-lg-3 col-md-6 text-center">
+          <div class="mb-2">
+            <a href="https://foleytales.com">
+              <img class="img-fluid" src="/img/sponsors/foley-tales.png" />
+            </a>
+          </div>
+          <div class="mt-5">
+            <a href="https://elisajo.com/">
+              <img class="img-fluid" src="/img/sponsors/elisa-jo-studios.png" />
+            </a>
+          </div>
+        </div>
+
         <ul class="list-inline text-center">
-          {% if site.email %}
           <li class="list-inline-item">
-            <a href="mailto:{{ site.email | encode_email }}">
-              <span class="fa-stack fa-lg">
-                <i class="fas fa-circle fa-stack-2x"></i>
-                <i class="far fa-envelope fa-stack-1x fa-inverse"></i>
-              </span>
+            <a href="https://foleytales.com" target="_blank">
+              <img class="img-fluid" src="/img/sponsors/foley-tales.png" />
             </a>
           </li>
-          {% endif %}
-          {% if site.twitter_username %}
           <li class="list-inline-item">
-            <a href="https://twitter.com/{{ site.twitter_username }}">
-              <span class="fa-stack fa-lg">
-                <i class="fas fa-circle fa-stack-2x"></i>
-                <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
-              </span>
+            <a href="https://elisajo.com/"  target="_blank">
+              <img class="img-fluid" src="/img/sponsors/elisa-jo-studios.png" />
             </a>
           </li>
-          {% endif %}
-          {% if site.facebook_username %}
           <li class="list-inline-item">
-            <a href="https://www.facebook.com/{{ site.facebook_username }}">
-              <span class="fa-stack fa-lg">
-                <i class="fas fa-circle fa-stack-2x"></i>
-                <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
-              </span>
+            <a href="https://www.basballoon.nl/" target="_blank">
+              <img class="img-fluid" src="/img/sponsors/basballoon.jpg" />
             </a>
           </li>
-          {% endif %}
-          {% if site.linkedin_username %}
           <li class="list-inline-item">
-            <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}">
-              <span class="fa-stack fa-lg">
-                <i class="fas fa-circle fa-stack-2x"></i>
-                <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
-              </span>
+            <a href="https://www.bjdfinance.nl/" target="_blank">
+              <img class="img-fluid" src="/img/sponsors/bjd-finance.png" />
             </a>
           </li>
-          {% endif %}
-          {% if site.github_username %}
           <li class="list-inline-item">
-            <a href="https://github.com/{{ site.github_username }}">
-              <span class="fa-stack fa-lg">
-                <i class="fas fa-circle fa-stack-2x"></i>
-                <i class="fab fa-github fa-stack-1x fa-inverse"></i>
-              </span>
+            <a href="https://www.dancefirst.nl/" target="_blank">
+              <img class="img-fluid" src="/img/sponsors/dance-first.jpg" />
             </a>
           </li>
-          {% endif %}
-          {% if site.instagram_username %}
           <li class="list-inline-item">
-            <a href="https://instagram.com/{{ site.instagram_username }}">
-              <span class="fa-stack fa-lg">
-                <i class="fas fa-circle fa-stack-2x"></i>
-                <i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
-              </span>
+            <a href="https://www.feestenverhuuralkmaar.nl/" target="_blank">
+              <img class="img-fluid" src="/img/sponsors/feest-en-verhuur.jpg" />
             </a>
           </li>
-          {% endif %}
+          <li class="list-inline-item">
+            <a href="https://www.paulharder.nl/" target="_blank">
+              <img class="img-fluid" src="/img/sponsors/fietsvakman-paul-harder.jpg" />
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a href="https://boedelzorg-steenhof.nl" target="_blank">
+              <img class="img-fluid" src="/img/sponsors/handelsonderneming-steenhof.png" />
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a href="https://oostwouder.info/" target="_blank">
+              <img class="img-fluid" src="/img/sponsors/oostwouder-aannemers.jpg" />
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a href="https://www.partnersinverloskunde.nl/" target="_blank">
+              <img class="img-fluid" src="/img/sponsors/partners-in-verloskunde.png" />
+            </a>
+          </li>
         </ul>
         <p class="copyright text-muted">Copyright &copy; {{ site.author }} {{ 'now' | date: "%Y" }}</p>
       </div>
