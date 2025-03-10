@@ -1,0 +1,28 @@
+<section>
+    <div class="container px-5">
+        <div class="row gx-5 align-items-center">
+            <div class="col-lg-5 order-lg-2">
+                <div class="p-3 slideshow">
+                    <a href="https://www.basballoon.nl/" target="_blank">
+                    <img class="img-fluid rounded-circle" src="/img/activiteiten/basballoon.jpg" />
+                    </a>
+                </div>
+                <div class="p-3 slideshow">
+                    <img class="img-fluid rounded-circle" src="/img/activiteiten/Vosjes.jpg" />
+                </div>
+                <!-- <div class="p-3 slideshow">
+                    <img class="img-fluid rounded-circle" src="/img/activiteiten/origami.jpg" />
+                </div> -->
+            </div>
+            <div class="col-lg-7 order-lg-1">
+                <div class="p-3">
+                    {% if include.header %}
+                    <h2 class="display-4">{{ include.header }}</h2>
+                    {% endif %}
+
+                    {{ include.content | markdownify }}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

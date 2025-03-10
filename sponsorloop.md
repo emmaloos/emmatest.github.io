@@ -33,19 +33,27 @@ wide: true
 </div>
 
 {% capture datum_content %}
-Zet zaterdag 19 April in je agenda, want dan wordt de sponsorloop gehouden.
+De sponsorloop wordt gehouden op zaterdag 19 April van 15:00 tot 18:00.
 {: .m-0}
 
 {% endcapture %}
 {% include bubble_left.html image="/img/calendar.png" header="Zaterdag 19 April"
 content=datum_content %}
 
+{% capture activiteiten_content %}
+Tijdens de sponsor zijn er verschillende activiteiten voor de kinderen: ballonenartiest, schminken, suikerspin, springkasteel, grabbelton, origami vouwen en een bingo.
+{: .m-0}
+
+{% endcapture %}
+{% include bubble_activiteiten.html image="/img/activiteiten/basballoon.jpg" header="Activiteiten"
+content=activiteiten_content %}
+
 {% capture doel_content %}
 Het doel van de sponsorloop is om geld in te zamelen voor een rolstoelbus.
 {: .m-0}
 
 {% endcapture %}
-{% include bubble_right.html image="/img/rolstoelbus.jpg" header="Rolstoelbus"
+{% include bubble_left.html image="/img/rolstoelbus.jpg" header="Rolstoelbus"
 content=doel_content %}
 
 
@@ -55,7 +63,7 @@ Doneren kan via onderstaande link. Heel erg bedankt voor uw steun!
 
 <a class="btn-xl btn-danger col-5" href="{{ site.doneerurl }}">&#10084;&#65038; Doneer</a>
 {% endcapture %}
-{% include bubble_left.html image="/img/betaalverzoek_qr.jpg" image-link=site.doneerurl no-rounded=true header="Doneer"
+{% include bubble_right.html image="/img/betaalverzoek_qr.jpg" image-link=site.doneerurl no-rounded=true header="Doneer"
 content=doneer_content %}
 
 {% capture locatie_content %}
@@ -63,7 +71,7 @@ De sponsorloop is op het terrein van de Kolping Boys, [Beverdam 3 in Alkmaar](ht
 {: .m-0}
 
 {% endcapture %}
-{% include bubble_right.html header="Locatie"
+{% include bubble_left.html header="Locatie"
 image="/img/kolpingboys_applemaps.png" image-link="https://maps.app.goo.gl/orsoURzLDYEHCVJS6"
 content=locatie_content %}
 
@@ -78,7 +86,7 @@ Als je op een andere manier wilt helpen, [kan je contact opnemen]({{ site.contac
 <a class="btn-xl btn-primary col-3" href="{{ site.contacturl }}">&#9993; Contact</a>
 
 {% endcapture %}
-{% include bubble_left.html header="Help mee!" image="/img/emma/IMG20240625164741.jpg"
+{% include bubble_right.html header="Help mee!" image="/img/emma/IMG20240625164741.jpg"
 content=loop_mee_content %}
 
 {% capture flyer_content %}
@@ -86,5 +94,5 @@ Je kan de flyer [downloaden](/assets/flyer.pdf) om verder te delen.
 {: .m-0}
 
 {% endcapture %}
-{% include bubble_right.html header="Flyer" image="/img/flyer.jpg" image-link="/assets/flyer.pdf" no-rounded=true
+{% include bubble_left.html header="Flyer" image="/img/flyer.jpg" image-link="/assets/flyer.pdf" no-rounded=true
 content=flyer_content %}
