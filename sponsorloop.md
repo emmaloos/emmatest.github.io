@@ -41,7 +41,8 @@ De sponsorloop wordt gehouden op zaterdag 19 April van 15:00 tot 18:00.
 content=datum_content %}
 
 {% capture activiteiten_content %}
-Tijdens de sponsor zijn er verschillende activiteiten voor de kinderen: ballonenartiest, schminken, suikerspin, springkasteel, grabbelton, origami vouwen en een bingo.
+Tijdens de sponsor zijn er verschillende activiteiten voor de kinderen: ballonenartiest, schminken, suikerspin, springkasteel, grabbelton en origami. En voor de volwassenen is er een
+bingo!
 {: .m-0}
 
 {% endcapture %}
