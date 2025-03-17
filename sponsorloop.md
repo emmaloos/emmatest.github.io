@@ -1,6 +1,6 @@
 ---
-loper_count: 32
-raised_money: "20,565"
+loper_count: 33
+raised_money: "21,241.60"
 total_money: "50,000"
 
 
