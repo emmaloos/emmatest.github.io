@@ -64,7 +64,7 @@ Doneren kan via onderstaande link. Heel erg bedankt voor uw steun!
 
 <a class="btn-xl btn-danger col-5" href="{{ site.doneerurl }}">&#10084;&#65038; Doneer</a>
 {% endcapture %}
-{% include bubble_right.html image="/img/betaalverzoek_qr.jpg" image-link=site.doneerurl no-rounded=true header="Doneer"
+{% include bubble_right.html image="/img/betaalverzoek_qr.png" image-link=site.doneerurl no-rounded=true header="Doneer"
 content=doneer_content %}
 
 {% capture locatie_content %}
