@@ -56,14 +56,16 @@ Het doel van de sponsorloop is om geld in te zamelen voor een rolstoelbus.
 {% include bubble_left.html image="/img/rolstoelbus.jpg" header="Rolstoelbus"
 content=doel_content %}
 
-{% capture doneer_content %}
-Bied via onderstaande link mee voor ....
+{% capture bied_mee_content %}
+Via AZ hebben we de kans gekregen om een shirt, gesigneerd door de hele selectie, te veilen. Een supermooi item voor elke AZ-fan!
+Lijkt dit je wat? Bied dan mee via de knop hieronder!
+Ken je iemand die hier blij van zou worden? Laat het ze weten! Hoe meer mensen meedoen, hoe mooier het bedrag dat we kunnen ophalen voor Emma!
 {: .m-0}
 
 <a class="btn-xl btn-danger col-5" href="{{ site.veilingurl }}">&#10084;&#65038; Bied mee</a>
 {% endcapture %}
-{% include bubble_right.html image="/img/betaalverzoek_qr.jpg" image-link=site.veilingurl no-rounded=true header="Bied mee"
-content=doneer_content %}
+{% include bubble_right.html image="/img/az.jpg" image-link=site.veilingurl no-rounded=true header="Bied mee"
+content=bied_mee_content %}
 
 
 {% capture doneer_content %}
