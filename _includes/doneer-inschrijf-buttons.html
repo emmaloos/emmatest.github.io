@@ -1,5 +1,5 @@
 
-<div class="row text-center g-3" style="margin-bottom: 30px">
+<div class="row text-center g-3 no-gutters-sm" style="margin-bottom: 30px">
 {% if include.contact %}
     <div class="col-6 col-md-3">
         <button class="btn-xl btn-danger" style="height: 100%; width: 100%; justify-content: center; align-items: center;" onclick="window.location.href='{{ site.doneerurl }}'">
@@ -33,9 +33,9 @@
         </button>
     </div>
     <div class="col-6 col-md-3">
-        <button class="btn-xl btn-danger" style="height: 100%; width: 100%; justify-content: center; align-items: center;" onclick="window.location.href='{{ site.veilingurl }}'">
+        <button class="btn-xl btn-danger" style="height: 100%; width: 100%; justify-content: center; align-items: center;" onclick="window.location.href='{{ "/sponsorloop#veiling" | relative_url }}'">
             <span>&#10084;&#65038;</span><br>
-            <span>Bied mee</span>
+            <span>Veiling</span>
         </button>
     </div>
     <div class="col-6 col-md-3">
@@ -51,19 +51,19 @@
         </button>
     </div>
 {% else %}
-    <div class="col-6 col-md-4">
+    <div class="col-4 col-md-4">
         <button class="btn-xl btn-danger" style="height: 100%; width: 100%; justify-content: center; align-items: center;" onclick="window.location.href='{{ site.doneerurl }}'">
             <span>&#10084;&#65038;</span><br>
             <span>Doneer</span>
         </button>
     </div>
-    <div class="col-6 col-md-4">
+    <div class="col-4 col-md-4">
         <button class="btn-xl btn-danger" style="height: 100%; width: 100%; justify-content: center; align-items: center;" onclick="window.location.href='{{ site.veilingurl }}'">
             <span>&#10084;&#65038;</span><br>
             <span>Bied mee</span>
         </button>
     </div>
-    <div class="col-6 col-md-4">
+    <div class="col-4 col-md-4">
         <button class="btn-xl btn-primary" style="height: 100%; width: 100%; justify-content: center; align-items: center;" onclick="window.location.href='{{ site.inschrijfurl }}'">
             <span>+</span><br>
             <span>Loop Mee</span>

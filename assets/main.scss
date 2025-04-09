@@ -18,3 +18,14 @@ $progress-height: 2rem;
 .btn-xl {
     border: none;
 }
+
+html {
+    scroll-behavior: smooth;
+}
+
+@media (max-width: 768px) { /* Target screens smaller than "md" (768px) */
+    .row.no-gutters-sm > [class^="col-"] {
+        padding-left: 5px; /* Adjust as needed */
+        padding-right: 5px; /* Adjust as needed */
+    }
+}
