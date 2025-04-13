@@ -10,6 +10,7 @@ contacturl: "mailto:emmasponsorloop@outlook.com"
 doneerurl: "https://betaalverzoek.rabobank.nl/betaalverzoek/?id=XqAcgJQ2RC6XodDJkiR0Qg"
 inschrijfurl: "https://docs.google.com/forms/d/e/1FAIpQLSeGxkPpnSOvD9rU0x2rxgNJKMVzKEF8adS7lfRtxbjvlm_9GA/viewform?usp=dialog"
 nieuwsbriefurl: "https://docs.google.com/forms/d/e/1FAIpQLSenK6r9ADBG_ysQ2fu75xHyYXu5LPucJTVSSPrct4lNasmZeA/viewform?usp=dialog"
+veilingurl: "https://emmaloos.itsam.nl"
 
 # Build settings
 # theme: jekyll-theme-clean-blog # minima
