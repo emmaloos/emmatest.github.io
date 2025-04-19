@@ -21,7 +21,7 @@ wide: true
 
 
 <div class="progress-bg col-lg-11 mx-auto">
-    <h3 id="countdown">Zaterdag 19 April is de sponsorloop! </h3>
+    <h3>Zaterdag 19 April is de sponsorloop! </h3>
     <div class="progress">
         <div class="progress-bar active" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width: {{ progress_pct }}%;" aria-valuenow="{{ progress_pct }}">
         </div>
