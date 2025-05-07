@@ -6,60 +6,16 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-12 col-md-10 mx-auto">
-        <p class="text-center">Met dank aan de partners die de sponsorloop mogelijk maken:</p>
+        <p class="text-center">Met dank aan de partners die dit allemaal mogelijk maken:</p>
         <ul class="list-inline text-center">
-          <li class="list-inline-item">
-            <a href="https://foleytales.com" target="_blank">
-              <img class="img-fluid" src="/img/sponsors/foley-tales.png" />
-            </a>
-          </li>
-          <li class="list-inline-item">
-            <a href="https://elisajo.com/"  target="_blank">
-              <img class="img-fluid" src="/img/sponsors/elisa-jo-studios.png" />
-            </a>
-          </li>
-          <li class="list-inline-item">
-            <a href="https://www.basballoon.nl/" target="_blank">
-              <img class="img-fluid" src="/img/sponsors/basballoon.jpg" />
-            </a>
-          </li>
-          <li class="list-inline-item">
-            <a href="https://www.bjdfinance.nl/" target="_blank">
-              <img class="img-fluid" src="/img/sponsors/bjd-finance.png" />
-            </a>
-          </li>
-          <li class="list-inline-item">
-            <a href="https://www.dancefirst.nl/" target="_blank">
-              <img class="img-fluid" src="/img/sponsors/dance-first.jpg" />
-            </a>
-          </li>
-          <li class="list-inline-item">
-            <a href="https://www.feestenverhuuralkmaar.nl/" target="_blank">
-              <img class="img-fluid" src="/img/sponsors/feest-en-verhuur.jpg" />
-            </a>
-          </li>
-          <li class="list-inline-item">
-            <a href="https://www.paulharder.nl/" target="_blank">
-              <img class="img-fluid" src="/img/sponsors/fietsvakman-paul-harder.jpg" />
-            </a>
-          </li>
-          <li class="list-inline-item">
-            <a href="https://boedelzorg-steenhof.nl" target="_blank">
-              <img class="img-fluid" src="/img/sponsors/handelsonderneming-steenhof.png" />
-            </a>
-          </li>
-          <li class="list-inline-item">
-            <a href="https://oostwouder.info/" target="_blank">
-              <img class="img-fluid" src="/img/sponsors/oostwouder-aannemers.jpg" />
-            </a>
-          </li>
-          <li class="list-inline-item">
-            <a href="https://www.partnersinverloskunde.nl/" target="_blank">
-              <img class="img-fluid" src="/img/sponsors/partners-in-verloskunde.png" />
-            </a>
-          </li>
+          {% for sponsor in site.sponsors %}
+            <li class="list-inline-item">
+              <a href="{{ sponsor.url }}" target="_blank">
+                <img class="img-fluid" src="{{ sponsor.image }}" alt="{{ sponsor.name }}" />
+              </a>
+            </li>
+          {% endfor %}
         </ul>
-
 
         <ul class="list-inline text-center mt-5 mb-n4">
           {% if site.email %}
