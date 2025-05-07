@@ -2,7 +2,7 @@
 layout: page
 title: Doneer
 permalink: /doneer/
-background: '/img/IMG_1553.jpg'
+background: '/img/emma/IMG_1553.jpg'
 background-position: center 20%
 ---
 

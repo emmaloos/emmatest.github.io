@@ -1,11 +1,10 @@
 ---
 layout: home
-background: '/img/PHOTO-2024-04-14-15-33-44.jpg'
-# background: '/img/emma.png'
+background: '/img/emma/PHOTO-2024-04-14-15-33-44.jpg'
 background-position: center 20%
 ---
 
-{% include doneer-inschrijf-buttons.html meer_info=true %}
+{% include doneer-info-buttons.html meer_info=true %}
 
 ## Dit is onze fantastische dochter Emma.
 #### Knuffelkont. Kusjesmonster. Muziekliefhebber. Veerkrachtige strijder.
@@ -18,7 +17,7 @@ Kleine lijfjes worden (gelukkig) groot, maar dat betekent een steeds grotere bel
 
 Zaterdag 19 april 2025, op Emma haar verjaardag, organiseren we daarom een sponsorloop voor kinderen. Wil je meelopen, doneren of je anderzijds inzetten voor Emma? Klik dan op één van onderstaande knoppen.
 
-{% include doneer-inschrijf-buttons.html meer_info=true %}
+{% include doneer-info-buttons.html meer_info=true %}
 
 [Lees meer over TAOK1 syndroom]({{ "/taok1" | relative_url }})
 

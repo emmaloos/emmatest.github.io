@@ -1,0 +1,43 @@
+<div class="row text-center g-3 no-gutters-sm" style="margin-bottom: 30px">
+{% if include.meer_info %}
+    <div class="col-4 col-md-3">
+        <button class="btn-xl btn-danger"
+            style="height: 100%; width: 100%; justify-content: center; align-items: center;"
+            onclick="window.location.href='{{ site.doneerurl }}'">
+            <span>&#10084;&#65038;</span><br>
+            <span>Doneer</span>
+        </button>
+    </div>
+    <div class="col-4 col-md-3">
+        <button class="btn-xl btn-primary"
+            style="height: 100%; width: 100%; justify-content: center; align-items: center;"
+            onclick="window.location.href='{{ "/sponsorloop" | relative_url }}'">
+            <span>Meer</span><br>
+            <span>Info</span>
+        </button>
+    </div>
+    <div class="col-6 col-md-3">
+        <button class="btn-xl btn-primary" style="height: 100%; width: 100%;"
+            onclick="window.location.href='{{ site.contacturl }}'">
+            <span>✉️</span><br>
+            <span>Contact</span>
+        </button>
+    </div>
+{% else %}
+    <div class="col-6 col-md-4">
+        <button class="btn-xl btn-danger"
+            style="height: 100%; width: 100%; justify-content: center; align-items: center;"
+            onclick="window.location.href='{{ site.doneerurl }}'">
+            <span>&#10084;&#65038;</span><br>
+            <span>Doneer</span>
+        </button>
+    </div>
+    <div class="col-6 col-md-4">
+        <button class="btn-xl btn-primary" style="height: 100%; width: 100%;"
+            onclick="window.location.href='{{ site.contacturl }}'">
+            <span>✉️</span><br>
+            <span>Contact</span>
+        </button>
+    </div>
+{% endif %}
+</div>

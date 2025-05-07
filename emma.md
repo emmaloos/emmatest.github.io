@@ -2,7 +2,7 @@
 layout: page
 title: Over Emma
 permalink: /overemma/
-background: '/img/IMG_1553.jpg'
+background: '/img/emma/IMG_1553.jpg'
 background-position: center 20%
 ---
 

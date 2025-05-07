@@ -12,7 +12,7 @@ wide: true
 ---
 
 <div class="col-lg-11 mx-auto">
-{% include doneer-inschrijf-buttons.html %}
+{% include doneer-info-buttons.html %}
 </div>
 <!-- This calculates the percentage, which is used for the progress bar -->
 {% assign raised_money_num = page.raised_money | replace: ",", "" | to_float %}
@@ -59,13 +59,12 @@ content=doel_content %}
 
 {% capture bied_mee_content %}
 Via AZ hebben we de kans gekregen om een shirt, gesigneerd door de hele selectie, te veilen. Een supermooi item voor elke AZ-fan!
-Lijkt dit je wat? Bied dan mee via de knop hieronder!
-Ken je iemand die hier blij van zou worden? Laat het ze weten! Hoe meer mensen meedoen, hoe mooier het bedrag dat we kunnen ophalen voor Emma!
 {: .m-0}
-<a class="btn-xl btn-danger col-5" href="{{ site.veilingurl }}">&#10084;&#65038; Bied mee</a>
+
+De veiling is inmiddels gesloten, er kan helaas niet meer geboden worden!
 {% endcapture %}
 
-{% include bubble_right.html image="/img/az.jpg" image-link=site.veilingurl no-rounded=true header="Bied mee" id="veiling"
+{% include bubble_right.html image="/img/az.jpg" no-rounded=true header="Bied mee" id="veiling"
 content=bied_mee_content %}
 
 
@@ -90,12 +89,9 @@ content=locatie_content %}
 
 
 {% capture loop_mee_content %}
-We zoeken kinderen die mee willen lopen! Opgeven kan via [dit formulier]({{ site.inschrijfurl }}).
+Als je op een andere manier wilt helpen, [kan je contact opnemen]({{ site.contacturl }}).
 {: .m-0}
 
-Als je op een andere manier wilt helpen, [kan je contact opnemen]({{ site.contacturl }}).
-
-<a class="btn-xl btn-primary col-3" href="{{ site.inschrijfurl }}">+ Loop Mee</a>
 <a class="btn-xl btn-primary col-3" href="{{ site.contacturl }}">&#9993; Contact</a>
 
 {% endcapture %}
@@ -107,5 +103,5 @@ Je kan de flyer [downloaden](/assets/flyer.pdf) om verder te delen.
 {: .m-0}
 
 {% endcapture %}
-{% include bubble_left.html header="Flyer" image="/img/flyer.jpg" image-link="/assets/flyer.pdf" no-rounded=true
+{% include bubble_left.html header="Flyer" image="/img/flyer-sponsorloop.jpg" image-link="/assets/flyer-sponsorloop.pdf" no-rounded=true
 content=flyer_content %}
