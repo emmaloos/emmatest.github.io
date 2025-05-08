@@ -17,28 +17,30 @@ function updateCountdown() {
 }
 
 // Update the countdown every hour
-setInterval(updateCountdown, 1000 * 60 * 60);
+// setInterval(updateCountdown, 1000 * 60 * 60);
 
 
 let slideIndex = 0;
 function showSlides() {
   let i;
   let slides = document.getElementsByClassName("slideshow");
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
+  if (slides.length > 0) {
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}
+    slides[slideIndex-1].style.display = "block";
+    setTimeout(showSlides, 2000); // Change image every 2 seconds
   }
-  slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}
-  slides[slideIndex-1].style.display = "block";
-  setTimeout(showSlides, 2000); // Change image every 2 seconds
 }
 
 
 $(function () {
   $('[data-toggle="tooltip"]').tooltip()
 
-showSlides();
+  showSlides();
 
-  // Updte the countdown when the page has loaded
-  updateCountdown();
+  // // Update the countdown when the page has loaded
+  // updateCountdown();
 })

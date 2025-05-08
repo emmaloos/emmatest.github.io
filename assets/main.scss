@@ -27,6 +27,17 @@ html {
     scroll-margin-top: 100px; 
 }
 
+
+h3 + p {
+    margin-top: 10px;
+}
+h4 + p {
+    margin-top: 0;
+}
+h5 + p {
+    margin-top: 0;
+}
+
 @media (max-width: 768px) { /* Target screens smaller than "md" (768px) */
     .row.no-gutters-sm > [class^="col-"] {
         padding-left: 5px;

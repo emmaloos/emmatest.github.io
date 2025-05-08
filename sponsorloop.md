@@ -99,7 +99,7 @@ Als je op een andere manier wilt helpen, [kan je contact opnemen]({{ site.contac
 content=loop_mee_content %}
 
 {% capture flyer_content %}
-Je kan de flyer [downloaden](/assets/flyer.pdf) om verder te delen.
+Je kan de flyer [downloaden](/assets/flyer-sponsorloop.pdf) om verder te delen.
 {: .m-0}
 
 {% endcapture %}
