@@ -26,7 +26,7 @@ Je huurt een fiets voor €10 per uur, de opbrengst gaat naar Emma's rolstoelbus
 
 Inschrijven kan bij de balie van Sportinstituut Tom van der Kolk (Klaas Bootpad 2, Alkmaar)
 
-[Meer Info](/sponsorloop){: .btn-xl .btn-primary .col-3 }
+[Meer Info](/spinningmarathon){: .btn-xl .btn-primary .col-3 }
 {% endcapture %}
 {% include bubble_left.html image="/img/flyer-spinning-marathon.jpg" image-link="/spinningmarathon" header="Spinning marathon"
 content=spinning_content no-rounded=true %}
@@ -62,6 +62,7 @@ Doneren kan via onderstaande link. Heel erg bedankt voor uw steun!
 Als je op een andere manier wilt helpen, [kan je contact opnemen]({{ site.contacturl }}).
 
 <a class="btn-xl btn-danger col-5" href="{{ site.doneerurl }}">&#10084;&#65038; Doneer</a>
+
 <a class="btn-xl btn-primary col-3" href="{{ site.contacturl }}">&#9993; Contact</a>
 {% endcapture %}
 {% include bubble_right.html image="/img/betaalverzoek_qr.png" image-link=site.doneerurl no-rounded=true header="Doneer"

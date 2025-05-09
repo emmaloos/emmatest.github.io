@@ -30,5 +30,5 @@ Wil je meer informatie over of meedoen met een van de benefietacties, doneren of
 [Lees meer over Emma's leven]({{ "/levensverhaal" | relative_url }})
 
 
-![Emma](/img/emma.png){: .img-fluid}
+![Emma](/img/emma/IMG-20250415-WA0027.jpg){: .img-fluid}
 
