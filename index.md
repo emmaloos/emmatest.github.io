@@ -17,7 +17,7 @@ Kleine lijfjes worden (gelukkig) groot, maar dat betekent een steeds grotere bel
 
 Er zijn verschillende benefiet acties opgezet, door onszelf en door derden. 
 - **Zaterdag 19 april 2025**: [Sponsorloop]({{ "/sponsorloop" | relative_url }}) voor kinderen bij vv Kolping Boys in Alkmaar. [Meer Info](/sponsorloop){: .btn-primary .p-1 .ml-2 }
-- **Zondag 25 juni 2025**: [Spinning marathon]({{ "/spinningmarathon" | relative_url }}) bij sportinstituut Tom van der Kolk in Alkmaar. [Meer Info](/spinningmarathon){: .btn-primary .p-1 .ml-2 }
+- **Zondag 25 mei 2025**: [Spinning marathon]({{ "/spinningmarathon" | relative_url }}) bij sportinstituut Tom van der Kolk in Alkmaar. [Meer Info](/spinningmarathon){: .btn-primary .p-1 .ml-2 }
 - **Zaterdag 21 juni 2025**: [Open ride out (motorrijtocht)]({{ "/motortocht" | relative_url }}) door Coast Riders Chapter Alkmaar. [Meer Info](/motortocht){: .btn-primary .p-1 .ml-2 }
 
 Wil je meer informatie over of meedoen met een van de benefietacties, doneren of je anderzijds inzetten voor Emma? Klik dan op één van onderstaande knoppen.
