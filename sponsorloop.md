@@ -9,6 +9,16 @@ background: '/img/bg-runner.jpg'
 title: "Sponsorloop"
 description: "We zamelen geld in voor een rolstoelbus voor Emma!"
 wide: true
+
+pictures:
+  - "img/sponsorloop/DSC_3311.JPG"
+  - "img/sponsorloop/DSC_3412.JPG"
+  - "img/sponsorloop/DSC_3467_.JPG"
+  - "img/sponsorloop/DSC_3541.JPG"
+  - "img/sponsorloop/DSC_3204.JPG"
+  - "img/sponsorloop/DSC_3219.JPG"
+  - "img/sponsorloop/DSC_3251.JPG"
+  - "img/sponsorloop/DSC_3296.JPG"
 ---
 
 <div class="col-lg-11 mx-auto">
@@ -21,15 +31,41 @@ wide: true
 
 
 <div class="progress-bg col-lg-11 mx-auto">
-    <h3>Zaterdag 19 April is de sponsorloop! </h3>
+    <h3>De sponsorloop is geweest!</h3>
+    <p>Wat een fantastische middag hebben we gehad! Iedereen bedankt voor de inzet en gezelligheid, en in het bijzonder een bedankje voor onze sponsoren en vrijwilligers die de dag mogelijk hebben gemaakt 🥳. Emma heeft een topfeest gehad. En als klap op de vuurpijl tot nu toe een ongelofelijk bedrag opgehaald van € {{ page.raised_money }}! 💰🤯</p>
+    <p>BEDANKT BEDANKT BEDANKT! ❤️</p>
     <div class="progress">
         <div class="progress-bar active" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width: {{ progress_pct }}%;" aria-valuenow="{{ progress_pct }}">
         </div>
     </div>
     <div class="row mx-auto justify-content-between" style="margin-top: 10px;">
         <h6>€ {{ page.raised_money }} van € {{ page.total_money }} ingezameld</h6>
-        <h6>Er lopen al {{ page.loper_count }} kinderen mee!</h6>
+        <h6>Er liepen {{ page.loper_count }} kinderen mee!</h6>
     </div>
+</div>
+<div class="progress-bg col-lg-11 mx-auto mt-5">
+    <h3 class="carousel slide px-3">Foto's</h3>
+<div id="carouselExampleControls" class="carousel slide p-3" data-ride="carousel">
+  <div class="carousel-inner">
+  {% for picture in page.pictures %}
+    {% if picture == page.pictures.first %}
+    <div class="carousel-item active">
+    {% else %}
+    <div class="carousel-item">
+    {% endif %}
+      <img class="d-block w-100" src="{{ picture }}">
+    </div>
+  {% endfor %}
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
 </div>
 
 {% capture datum_content %}
