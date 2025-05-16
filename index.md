@@ -4,7 +4,7 @@ background: '/img/emma/PHOTO-2024-04-14-15-33-44.jpg'
 background-position: center 20%
 ---
 
-{% include doneer-info-buttons.html meer_info=true %}
+{% include doneer-info-buttons.html follow=true %}
 
 ## Dit is onze fantastische dochter Emma.
 #### Knuffelkont. Kusjesmonster. Muziekliefhebber. Veerkrachtige strijder.

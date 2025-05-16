@@ -7,7 +7,7 @@ wide: true
 ---
 
 <div class="col-lg-11 mx-auto">
-{% include doneer-info-buttons.html %}
+{% include doneer-info-buttons.html follow=true %}
 </div>
 
 {% capture intro_content %}
